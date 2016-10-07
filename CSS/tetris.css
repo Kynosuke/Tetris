@@ -1,0 +1,84 @@
+html, body {
+	background-color:black;
+	color:#FFF;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+	text-align:center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+#tetris {
+	margin:2em auto;
+	width: 450px;
+	overflow:hidden;
+}
+
+#grid {
+	float:left;
+    background-color: white;
+}
+
+#grid table, #next table {
+	border: 2px solid gray;
+}
+
+#grid td, #next td {
+	width: 23px;
+	height: 20px;
+    background-color: white;
+}
+
+#cmd {
+	font-size:120%;
+	float:right;
+	clear:right;
+	width:7em;
+	text-align:left;
+}
+
+#cmd h2{
+    font-size: 20px;
+}
+
+#cmd input {
+	margin-bottom:1em;
+}
+
+#info {
+	float:right;
+	clear:right;
+	text-align:right;
+}
+
+#info input {
+	width:1.5em;
+	text-align:center;
+}
+
+/*This code is in regards to the button*/
+input{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
+input:hover{
+    background-color: #555555;
+    color: white;
+}
+
+#a {
+    text-align: left;
+}
